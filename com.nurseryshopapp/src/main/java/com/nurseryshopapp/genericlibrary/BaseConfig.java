@@ -27,20 +27,6 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class BaseConfig extends WebDriverLibrary {
 
-	public WelcomePage wpobj;
-	public LoginPage lpobj;
-	public BookPage bpobj;
-	public DeskTopComputersPage dcobj;
-	public NoteBooksComputerPage ncobj;
-	public AccessoriesComputerspage acobj;
-	public Camerapage cpobj;
-	public CellPhonesPage cppobj;
-	public PropertiesLibrary plib;
-	public ExcelLibrary elib;
-	public ExtentSparkReporter spark;
-	public ExtentReports report;
-	public ExtentTest test;
-
 	@BeforeTest
 	public void reportSetup() {
 
